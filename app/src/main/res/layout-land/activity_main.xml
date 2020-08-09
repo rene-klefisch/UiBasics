@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="de.sanexio.kotlin.uibasics.MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="373dp"
+
+        android:layout_height="220dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:text="consectetuer adipiscing elit. Aenean co or sit amet, consectetuer adipiscing elit. Aenean co or sit amet, consectetuer adipiscing elit. Aenean co or sit amet, consectetuer adipiscing elit. Aenean co or sit amet, consectetuer adipiscing elit. Aenean co or sit amet, consectetuer adipiscing elit. Aenean co or sit amet, consectetuer adipiscing elit. Aenean co or sit amet, consectetuer adipiscing elit. Aenean co or sit amet, consectetuer adipiscing elit. Aenean co "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioButton
+        android:id="@+id/radioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="436dp"
+        android:layout_marginTop="32dp"
+        android:text="RadioButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioButton
+        android:id="@+id/radioButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="436dp"
+        android:layout_marginTop="40dp"
+        android:text="RadioButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioButton" />
+
+    <RadioButton
+        android:id="@+id/radioButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="436dp"
+        android:layout_marginTop="44dp"
+        android:text="RadioButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioButton2" />
+
+</android.support.constraint.ConstraintLayout>
